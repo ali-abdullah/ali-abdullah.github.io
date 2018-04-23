@@ -15,7 +15,7 @@ pic: profile.png  # Place a 200x200 picture inside /assets/img/ folder and provi
 
 # Contact links
 email: ali.abdullah.salahuddin@gmail.com # Add your Email address
-phone: 519 404 3298 # Add your Phone number
+# phone: # Add your Phone number
 website: ali-abdullah.github.io # Add your website, do not add http://
 linkedin: ali-abdullah3 # Add your Linkedin handle
 github: ali-abdullah # Add your Github handle
