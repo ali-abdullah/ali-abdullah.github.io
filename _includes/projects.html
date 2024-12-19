@@ -1,0 +1,13 @@
+<ul>
+    {% for job in site.data.projects %}
+    <li>
+        <h3>{{ job.position }} @ {{ job.company }}</h3>
+        <p>{{ job.duration }}</p>
+        <ul class="responsibilities">
+            {% for responsibility in job.responsibilities %}
+              <li>{{ responsibility }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>

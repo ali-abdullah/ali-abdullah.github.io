@@ -1,0 +1,55 @@
+title: Ali Abdullah
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+#baseurl: "/monday" # the subpath of your site, e.g. /blog
+url: "http://aliabdullah.co/" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+blog_theme: light # Or use dark
+markdown: kramdown
+
+plugins:
+  - jekyll-livereload
+
+# Profile information
+name: Ali Abdullah
+tagline: Software Developer
+pic: profile.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+
+# Contact links
+email: ali.abdullah.salahuddin@gmail.com # Add your Email address
+# phone: # Add your Phone cdnumber
+website: ali-abdullah.github.io # Add your website, do not add http://
+linkedin: ali-abdullah3 # Add your Linkedin handle
+github: ali-abdullah # Add your Github handle
+#twitter: '@artemsheludko_' # Add your Twitter handle
+
+# Tracker
+analytics:
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Important settings
+assets:
+  sources:
+    - assets/fonts
+    - assets/img
+    - assets/js
+    - assets/stylesheets
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+include: [_pages]
