@@ -1,32 +1,38 @@
-- company: Upstatement
-  position: Lead Engineer
-  duration: May 2018 - Present
+- company: Wealthsimple
+  position: Senior Software Engineer
+  duration: June 2021 - Present
   responsibilities:
-    - Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-    - Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-    - Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-    - Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+    - Introduced and led the development of Dividend Reinvestment Plans (DRIPs), enabling the reinvestment of over **$100 Million** and facilitating more than 600,000 automated trades monthly
+    - Integrated the TL;DR newsletter in the trade app which enabled automated content management, tracking engagement metrics and push notifications for weekly releases, increasing in app engagement
+    - Implemented real-time portfolio balance updates using WebSockets for pub/sub connections and optimized server load balancing to support active user traffic
+    - Developed corporate accounts with role-based access control and trading functionality for clients
 
-- company: Apple
-  position: Software Engineer
-  duration: July 2015 - April 2018
+- company: Square
+  position: Software Engineering Intern
+  duration: Jan 2020 - Dec 2020
   responsibilities:
-    # Add responsibilities here
+    - Lead development of Solid, a mutual aid platform that provides relief based on community driven causes
+    - Designed and implemented the storage layer, schema definitions and the financial ledgers for the service
+    - Engineered the Spotify integration supporting **10K+** artists with **$1M+** in **COVID-19** donations
+    - Developed risk assessment and debt recovery tools for fraud assessment, account takeovers and ID checks
 
-- company: Scout Studio
-  position: Studio Developer
-  duration: January 2014 - May 2015
+- company: Ultimate Software
+  position: Software Engineering Intern
+  duration: May 2014 - Aug 2019
   responsibilities:
-    # Add responsibilities here
+    - Designed and built a performant event driven delivery service for emails, SMS and push notifications
+    - Improved testing infrastructure increasing resiliency, ensuring fault tolerance, and saving developer hours
 
-- company: Starry
-  position: Software Engineer Co-op
-  duration: July 2013 - December 2013
+- company: Shopify
+  position: Mobile Engineering Intern
+  duration: Sep 2018 - Dec 2018
   responsibilities:
-    # Add responsibilities here
+    - Built Testify, an android plugin that generates fast, deterministic screenshots for integration tests
+    - Reduced memory usage by over **10%** by applying selective pruning transformations on user queries
 
-- company: MullenLowe
-  position: Creative Technologist Co-op
-  duration: July 2012 - December 2012
+- company: Shopify
+  position: Data Engineering Intern
+  duration: Jan 2018 - Apr 2018
   responsibilities:
-    # Add responsibilities here
+    - Built a SQL to PySpark Job converter, saving **200+** developer hours by leading refactor initiatives
+    - Used Spark, RedShift, Presto, Mode and Tableau analyzing finances, growth and customer satisfaction
